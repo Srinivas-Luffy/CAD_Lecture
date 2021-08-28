@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Asus/Documents/CAD_Lecture/Data_Book.h
+bits/stdc++.h
+-
+
+C:/Users/Asus/Documents/CAD_Lecture/main.cpp
+iostream
+-
+Data_Book.h
+C:/Users/Asus/Documents/CAD_Lecture/Data_Book.h
+

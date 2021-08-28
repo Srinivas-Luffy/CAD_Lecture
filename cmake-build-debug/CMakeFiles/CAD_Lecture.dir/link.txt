@@ -1,0 +1,3 @@
+"F:\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CAD_Lecture.dir/objects.a
+F:\Mingw\mingw64\bin\ar.exe cr CMakeFiles\CAD_Lecture.dir/objects.a @CMakeFiles\CAD_Lecture.dir\objects1.rsp
+F:\Mingw\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\CAD_Lecture.dir/objects.a -Wl,--no-whole-archive  -o CAD_Lecture.exe -Wl,--out-implib,libCAD_Lecture.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CAD_Lecture.dir\linklibs.rsp
