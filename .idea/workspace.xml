@@ -57,21 +57,25 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1630144814537" />
-    <state width="726" height="211" key="GridCell.Tab.0.bottom" timestamp="1630227468674">
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom" timestamp="1630239933968">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="726" height="211" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1630227468674" />
-    <state width="726" height="211" key="GridCell.Tab.0.center" timestamp="1630227468674">
+    <state width="1493" height="212" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1630239933968" />
+    <state width="1493" height="212" key="GridCell.Tab.0.center" timestamp="1630239933968">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="726" height="211" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1630227468674" />
-    <state width="726" height="211" key="GridCell.Tab.0.left" timestamp="1630227468674">
+    <state width="1493" height="212" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1630239933968" />
+    <state width="1493" height="212" key="GridCell.Tab.0.left" timestamp="1630239933968">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="726" height="211" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1630227468674" />
-    <state width="726" height="211" key="GridCell.Tab.0.right" timestamp="1630227468674">
+    <state width="1493" height="212" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1630239933968" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right" timestamp="1630239933968">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="726" height="211" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1630227468674" />
+    <state width="1493" height="212" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1630239933968" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1630239639049">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1630239639049" />
   </component>
 </project>

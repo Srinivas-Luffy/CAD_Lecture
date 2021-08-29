@@ -13,7 +13,6 @@ void Default_So_Data(){
     So_values["SAE2320_Case_Hardened"] = 350;
     So_values["SAE3245_Heat_Treated"] = 456;
     So_values["SAE6145_Heat_Treated"] = 473;
-    So_values["Ph_Bronze_SAE65"] = 84;
 }
 void add_So_data(string Key, int val){
     So_values.insert(pair<string, int>(Key, val));
@@ -41,5 +40,52 @@ double Preffered_m(double m){
 return ans;
 }
 //module values end
+
+//Cv values start
+double Cv_values(double Vp){
+    double Cv=0;
+    if(Vp<=5){
+        //class 1, grade: 8 - 9
+        return 3/(3+Vp);
+    }
+    else if(Vp<=7.5){
+        //class 1, grade: 7 - 8
+        return 3/(3+Vp);
+    }
+    else if(Vp<=15){
+        //class 2 grade: 5 - 6
+        return 4.5/(4.5+Vp);
+    }
+    else if(Vp<=20){
+        //class 3, grade: 4 - 5
+        return 6/(6+Vp);
+    }
+    else{
+        //Lapped gear, grade: 7 - 8
+        return 5.5/(5.5+pow(Vp,0.5));
+    }
+}
+//Cv values end
+
+//C values start
+int C_values(int profileType){
+
+    switch(profileType){
+        case 1:{
+            return 11500;
+        }
+        case 2:{
+            return 11800;
+        }
+        case 3:{
+            return 12300;
+        }
+    }
+
+   // return Cv;
+}
+
+//C values end
+
 
 #endif //CAD_LECTURE_DATA_BOOK_H
