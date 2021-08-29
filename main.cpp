@@ -2,11 +2,12 @@
 #include"Data_Book.h"
 using namespace std;
 int main() {
+    // So values added
+    Default_So_Data();
 
-    cout<<endl<<fetch_data("iron");
+    cout<<Preffered_m(2.5);
 
-    add_data("Brass",100);
-    cout<<endl<<fetch_data("Brass");
+
 
     return 0;
 }
