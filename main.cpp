@@ -5,7 +5,7 @@ int main() {
     // So values added
     Default_So_Data();
 
-    cout<<Preffered_m(2.5);
+    cout<<Preffered_m(0);
 
 
 
