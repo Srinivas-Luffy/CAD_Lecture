@@ -1,29 +1,13 @@
 #include<bits/stdc++.h>
+#include "Data_Book.h"
 using namespace std;
 
-class student{
-public:
-    string name;
-    int age;
-    bool gender;
-    void printInfo(){
-        cout<<this->name<<" "<<this->age<<" "<<this->gender;
 
-    }
-
-};
 
 int main(){
-    student arr[3];
-    //for(int i=0;i<3;i++){
-        cin>>arr[0].name;
-        cin>>arr[0].age;
-        cin>>arr[0].gender;
-       // arr[i].printInfo();
-    //}
-    arr[1](arr[0]);
-    cout<<arr[1].name<<endl;
-
+    cout<<Preffered_Shaft_Dia(203);
+    Default_Shaft_Strength();
+    cout<<fetch_Shaft_Strength("SAE3245");
     return 0;
 }
 

@@ -81,11 +81,41 @@ int C_values(int profileType){
             return 12300;
         }
     }
-
-   // return Cv;
 }
-
 //C values end
 
+//Shaft Diameters Start
+double Shaft_Dia[32] = {5,6,7,8,9,10,11,12,14,16,18,20,22,25,28,32,36,40,45,50,56,63,71,80,90,100,110,125,140,160,180,200};
+double Preffered_Shaft_Dia(double m){
+    int l=0,mid,r=31;
+    double ans=200;
+    while(l<=r){
+        mid = (l+r)/2;
+        if(Shaft_Dia[mid]>m){
+            ans = Shaft_Dia[mid];
+            r = mid-1;
+        }
+        else{
+            l=mid+1;
+        }
+    }
+    return ans;
+}
+//Shaft Diameters End
+
+// So Values start PG - 111 SHIWALKAR
+map<string, int> Shaft_Strength;
+void Default_Shaft_Strength(){
+    Shaft_Strength["SAE1020"] = 126;
+    Shaft_Strength["SAE1030"] = 140;
+    Shaft_Strength["SAE1040"] = 175;
+    Shaft_Strength["SAE3245"] = 456;
+}
+void add_Shaft_Strength(string Key, int val){
+    Shaft_Strength.insert(pair<string, int>(Key, val));
+}
+int fetch_Shaft_Strength(string Key){
+    return Shaft_Strength[Key];
+}
 
 #endif //CAD_LECTURE_DATA_BOOK_H
